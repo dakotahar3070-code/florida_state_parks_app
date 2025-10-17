@@ -1,0 +1,818 @@
+[
+  {
+    "name": "Addison Blockhouse Historic State Park",
+    "url": null
+  },
+  {
+    "name": "Alafia River State Park",
+    "url": null
+  },
+  {
+    "name": "Alfred B. Maclay Gardens State Park",
+    "url": null
+  },
+  {
+    "name": "Allen David Broussard Catfish Creek Preserve State Park",
+    "url": null
+  },
+  {
+    "name": "Amelia Island State Park",
+    "url": null
+  },
+  {
+    "name": "Anastasia State Park",
+    "url": null
+  },
+  {
+    "name": "Anclote Key Preserve State Park",
+    "url": null
+  },
+  {
+    "name": "Atlantic Ridge Preserve State Park",
+    "url": null
+  },
+  {
+    "name": "Avalon State Park",
+    "url": null
+  },
+  {
+    "name": "Bahia Honda State Park",
+    "url": null
+  },
+  {
+    "name": "Bald Point State Park",
+    "url": null
+  },
+  {
+    "name": "Baseline Road Trailhead",
+    "url": null
+  },
+  {
+    "name": "Big Lagoon State Park",
+    "url": null
+  },
+  {
+    "name": "Big Shoals State Park",
+    "url": null
+  },
+  {
+    "name": "Big Talbot Island State Park",
+    "url": null
+  },
+  {
+    "name": "Bill Baggs Cape Florida State Park",
+    "url": null
+  },
+  {
+    "name": "Blackwater Heritage State Trail",
+    "url": null
+  },
+  {
+    "name": "Blackwater River State Park",
+    "url": null
+  },
+  {
+    "name": "Blue Spring State Park",
+    "url": null
+  },
+  {
+    "name": "Buckman Lock - St. Johns Loop North & South",
+    "url": null
+  },
+  {
+    "name": "Bulow Creek State Park",
+    "url": null
+  },
+  {
+    "name": "Bulow Plantation Ruins Historic State Park",
+    "url": null
+  },
+  {
+    "name": "Caladesi Island State Park",
+    "url": null
+  },
+  {
+    "name": "Camp Helen State Park",
+    "url": null
+  },
+  {
+    "name": "Cayo Costa State Park",
+    "url": null
+  },
+  {
+    "name": "Cedar Key Museum State Park",
+    "url": null
+  },
+  {
+    "name": "Cedar Key Scrub State Reserve",
+    "url": null
+  },
+  {
+    "name": "Charlotte Harbor Preserve State Park",
+    "url": null
+  },
+  {
+    "name": "Cockroach Bay Preserve State Park",
+    "url": null
+  },
+  {
+    "name": "Collier-Seminole State Park",
+    "url": null
+  },
+  {
+    "name": "Colt Creek State Park",
+    "url": "https://www.floridastateparks.org/parks-and-trails/colt-creek-state-park",
+    "address": "16000 State Road 471, Lakeland, FL 33809",
+    "description": "A 5,000-acre park in the Green Swamp with pine flatwoods, cypress domes, and three lakes. Great for fishing, hiking, and camping.",
+    "amenities": ["Fishing", "Hiking Trails", "Camping", "Picnic Areas", "Wildlife Viewing"],
+    "price": "$4 per vehicle, Camping $18–$24/night",
+    "lat": 28.2580,
+    "lng": -82.0670
+  },
+  {
+    "name": "Constitution Convention Museum State Park",
+    "url": null
+  },
+  {
+    "name": "Crystal River Archaeological State Park",
+    "url": null
+  },
+  {
+    "name": "Crystal River Preserve State Park",
+    "url": null
+  },
+  {
+    "name": "Curry Hammock State Park",
+    "url": null
+  },
+  {
+    "name": "Dade Battlefield Historic State Park",
+    "url": null
+  },
+  {
+    "name": "Dagny Johnson Key Largo Hammock Botanical State Park",
+    "url": null
+  },
+  {
+    "name": "De Leon Springs State Park",
+    "url": null
+  },
+  {
+    "name": "Deer Lake State Park",
+    "url": null
+  },
+  {
+    "name": "Delnor-Wiggins Pass State Park",
+    "url": null
+  },
+  {
+    "name": "Devil's Millhopper Geological State Park",
+    "url": null
+  },
+  {
+    "name": "Don Pedro Island State Park",
+    "url": null
+  },
+  {
+    "name": "Dr. Julian G. Bruce St. George Island State Park",
+    "url": null
+  },
+  {
+    "name": "Dr. Von D. Mizell-Eula Johnson State Park",
+    "url": null
+  },
+  {
+    "name": "Dudley Farm Historic State Park",
+    "url": null
+  },
+  {
+    "name": "Dunnellon Trail",
+    "url": null
+  },
+  {
+    "name": "Dunns Creek State Park",
+    "url": null
+  },
+  {
+    "name": "Econfina River State Park",
+    "url": null
+  },
+  {
+    "name": "Eden Gardens State Park",
+    "url": null
+  },
+  {
+    "name": "Edward Ball Wakulla Springs State Park",
+    "url": null
+  },
+  {
+    "name": "Egmont Key State Park",
+    "url": null
+  },
+  {
+    "name": "Ellie Schiller Homosassa Springs Wildlife State Park",
+    "url": null
+  },
+  {
+    "name": "Estero Bay Preserve State Park",
+    "url": null
+  },
+  {
+    "name": "Eureka West Recreation Area",
+    "url": null
+  },
+  {
+    "name": "Fakahatchee Strand Preserve State Park",
+    "url": null
+  },
+  {
+    "name": "Falling Waters State Park",
+    "url": null
+  },
+  {
+    "name": "Fanning Springs State Park",
+    "url": "https://www.floridastateparks.org/parks-and-trails/fanning-springs-state-park",
+    "address": "18020 NW Hwy 19, Fanning Springs, FL 32693",
+    "description": "Located along the Suwannee River, Fanning Springs is a second-magnitude spring producing 65 million gallons of water daily. Its 72-degree waters are perfect for swimming, snorkeling, and spotting manatees in winter.",
+    "amenities": ["Spring Swimming", "Snorkeling", "Scuba Diving", "Boardwalk", "Picnic Areas", "Cabins"],
+    "price": "$6 per vehicle, $2 pedestrian/bicyclist, Cabins $100–$120/night",
+    "lat": 29.5908,
+    "lng": -82.9293
+  },
+  {
+    "name": "Faver-Dykes State Park",
+    "url": null
+  },
+  {
+    "name": "Felburn Park",
+    "url": null
+  },
+  {
+    "name": "Fernandina Plaza Historic State Park",
+    "url": null
+  },
+  {
+    "name": "Florida Caverns State Park",
+    "url": null
+  },
+  {
+    "name": "Florida Keys Overseas Heritage Trail",
+    "url": null
+  },
+  {
+    "name": "Forest Capital Museum State Park",
+    "url": null
+  },
+  {
+    "name": "Fort Clinch State Park",
+    "url": null
+  },
+  {
+    "name": "Fort Cooper State Park",
+    "url": null
+  },
+  {
+    "name": "Fort Foster State Historic Site",
+    "url": null
+  },
+  {
+    "name": "Fort George Island Cultural State Park",
+    "url": null
+  },
+  {
+    "name": "Fort Mose Historic State Park",
+    "url": null
+  },
+  {
+    "name": "Fort Pierce Inlet State Park",
+    "url": null
+  },
+  {
+    "name": "Fort Zachary Taylor Historic State Park",
+    "url": null
+  },
+  {
+    "name": "Fred Gannon Rocky Bayou State Park",
+    "url": null
+  },
+  {
+    "name": "Gainesville-Hawthorne State Trail",
+    "url": null
+  },
+  {
+    "name": "Gamble Rogers Memorial State Recreation Area at Flagler Beach",
+    "url": null
+  },
+  {
+    "name": "Gasparilla Island State Park",
+    "url": null
+  },
+  {
+    "name": "General James A. Van Fleet State Trail",
+    "url": null
+  },
+  {
+    "name": "George Crady Bridge Fishing Pier State Park",
+    "url": null
+  },
+  {
+    "name": "Grayton Beach State Park",
+    "url": null
+  },
+  {
+    "name": "Haw Creek Preserve State Park",
+    "url": null
+  },
+  {
+    "name": "Henderson Beach State Park",
+    "url": null
+  },
+  {
+    "name": "Highlands Hammock State Park",
+    "url": null
+  },
+  {
+    "name": "Hillsborough River State Park",
+    "url": null
+  },
+  {
+    "name": "Historic Santos Recreation Area",
+    "url": null
+  },
+  {
+    "name": "Honeymoon Island State Park",
+    "url": null
+  },
+  {
+    "name": "Hontoon Island State Park",
+    "url": null
+  },
+  {
+    "name": "Hugh Taylor Birch State Park",
+    "url": null
+  },
+  {
+    "name": "Ichetucknee Springs State Park",
+    "url": null
+  },
+  {
+    "name": "Indian Key Historic State Park",
+    "url": null
+  },
+  {
+    "name": "Indian River Lagoon Preserve State Park",
+    "url": null
+  },
+  {
+    "name": "Inglis Bypass Recreation Area",
+    "url": null
+  },
+  {
+    "name": "Inglis Dam & Island Recreation Area",
+    "url": null
+  },
+  {
+    "name": "Inglis Lock Recreation Area",
+    "url": null
+  },
+  {
+    "name": "John D. MacArthur Beach State Park",
+    "url": null
+  },
+  {
+    "name": "John Gorrie Museum State Park",
+    "url": null
+  },
+  {
+    "name": "John Pennekamp Coral Reef State Park",
+    "url": null
+  },
+  {
+    "name": "Jonathan Dickinson State Park",
+    "url": null
+  },
+  {
+    "name": "Judah P. Benjamin Confederate Memorial at Gamble Plantation Historic State Park",
+    "url": null
+  },
+  {
+    "name": "Kenwood Recreation Area",
+    "url": null
+  },
+  {
+    "name": "Kissimmee Prairie Preserve State Park",
+    "url": null
+  },
+  {
+    "name": "Koreshan State Park",
+    "url": null
+  },
+  {
+    "name": "Lafayette Blue Springs State Park",
+    "url": null
+  },
+  {
+    "name": "Lake Griffin State Park",
+    "url": null
+  },
+  {
+    "name": "Lake Jackson Mounds Archaeological State Park",
+    "url": null
+  },
+  {
+    "name": "Lake June-in-Winter Scrub Preserve State Park",
+    "url": null
+  },
+  {
+    "name": "Lake Kissimmee State Park",
+    "url": "https://www.floridastateparks.org/parks-and-trails/lake-kissimmee-state-park",
+    "address": "14248 Camp Mack Rd, Lake Wales, FL 33898",
+    "description": "A 6,000-acre park with access to Lake Kissimmee, Lake Rosalie, and Tiger Lake. Known for boating, fishing, birdwatching, and a living history cow camp.",
+    "amenities": ["Boating", "Fishing", "Camping", "Hiking Trails", "Cow Camp Living History"],
+    "price": "$5 per vehicle, Camping $22–$30/night",
+    "lat": 27.9490,
+    "lng": -81.4380
+  },
+   {
+    "name": "Lake Louisa State Park",
+    "url": "https://www.floridastateparks.org/parks-and-trails/lake-louisa-state-park",
+    "address": "7305 US Hwy 27, Clermont, FL 34714",
+    "description": "A 4,500-acre park with rolling hills, 6 lakes, and diverse habitats. Popular for camping, kayaking, horseback riding, and hiking.",
+    "amenities": ["Camping", "Cabins", "Kayaking", "Horseback Riding", "Hiking Trails", "Fishing"],
+    "price": "$5 per vehicle, Cabins $120–$160/night, Camping $24/night",
+    "lat": 28.5050,
+    "lng": -81.7320
+  },
+  {
+    "name": "Lake Manatee State Park",
+    "url": null
+  },
+  {
+    "name": "Lake Talquin State Park",
+    "url": null
+  },
+  {
+    "name": "Landbridge Trailhead",
+    "url": null
+  },
+  {
+    "name": "Letchworth-Love Mounds Archaeological State Park",
+    "url": null
+  },
+  {
+    "name": "Lignumvitae Key Botanical State Park",
+    "url": null
+  },
+  {
+    "name": "Little Manatee River State Park",
+    "url": null
+  },
+  {
+    "name": "Little Talbot Island State Park",
+    "url": null
+  },
+  {
+    "name": "Long Key State Park",
+    "url": null
+  },
+  {
+    "name": "Lovers Key State Park",
+    "url": null
+  },
+  {
+    "name": "Lower Wekiva River Preserve State Park",
+    "url": null
+  },
+  {
+    "name": "Madira Bickel Mound State Archaeological Site",
+    "url": null
+  },
+  {
+    "name": "Madison Blue Spring State Park",
+    "url": null
+  },
+  {
+    "name": "Manatee Springs State Park",
+    "url": "https://www.floridastateparks.org/parks-and-trails/manatee-springs-state-park",
+    "address": "11650 NW 115 St, Chiefland, FL 32626",
+    "description": "A first-magnitude spring flowing into the Suwannee River. Popular for scuba diving, snorkeling, and manatee viewing during winter months.",
+    "amenities": ["Spring Swimming", "Scuba Diving", "Snorkeling", "Camping", "Picnic Areas", "Hiking Trails"],
+    "price": "$6 per vehicle, $2 pedestrian/bicyclist, Camping $20–$30/night",
+    "lat": 29.4936,
+    "lng": -82.9710
+  },
+  {
+    "name": "Marjorie Harris Carr Cross Florida Greenway",
+    "url": null
+  },
+  {
+    "name": "Marjorie Kinnan Rawlings Historic State Park",
+    "url": null
+  },
+  {
+    "name": "Marjory Stoneman Douglas House",
+    "url": null
+  },
+  {
+    "name": "Mike Roess Gold Head Branch State Park",
+    "url": null
+  },
+  {
+    "name": "Mound Key Archaeological State Park",
+    "url": null
+  },
+  {
+    "name": "Myakka River State Park",
+    "url": null
+  },
+  {
+    "name": "Natural Bridge Battlefield Historic State Park",
+    "url": null
+  },
+  {
+    "name": "Nature Coast State Trail",
+    "url": null
+  },
+  {
+    "name": "Ney Landrum State Park",
+    "url": null
+  },
+  {
+    "name": "North Peninsula State Park",
+    "url": null
+  },
+  {
+    "name": "O'Leno State Park",
+    "url": null
+  },
+  {
+    "name": "Ochlockonee River State Park",
+    "url": null
+  },
+  {
+    "name": "Okeechobee Battlefield Historic State Park",
+    "url": null
+  },
+  {
+    "name": "Oleta River State Park",
+    "url": null
+  },
+  {
+    "name": "Olustee Battlefield Historic State Park",
+    "url": null
+  },
+  {
+    "name": "Orman House Historic State Park",
+    "url": null
+  },
+  {
+    "name": "Oscar Scherer State Park",
+    "url": null
+  },
+  {
+    "name": "Palatka-to-Lake Butler State Trail",
+    "url": null
+  },
+  {
+    "name": "Palatka-to-St. Augustine State Trail",
+    "url": null
+  },
+  {
+    "name": "Paynes Creek Historic State Park",
+    "url": null
+  },
+  {
+    "name": "Paynes Prairie Preserve State Park",
+    "url": null
+  },
+  {
+    "name": "Perdido Key State Park",
+    "url": null
+  },
+  {
+    "name": "Ponce de Leon Springs State Park",
+    "url": null
+  },
+  {
+    "name": "Price's Scrub State Park",
+    "url": null
+  },
+  {
+    "name": "Pumpkin Hill Creek Preserve State Park",
+    "url": null
+  },
+  {
+    "name": "Rainbow Springs State Park",
+    "url": null
+  },
+  {
+    "name": "Ravine Gardens State Park",
+    "url": null
+  },
+  {
+    "name": "River Rise Preserve State Park",
+    "url": null
+  },
+  {
+    "name": "Rock Springs Run State Reserve (Kelly Park / Rock Springs)",
+    "url": "https://www.floridastateparks.org/parks-and-trails/kelly-park-rock-springs",
+    "address": "400 E Kelly Park Rd, Apopka, FL 32712",
+    "description": "Famous for its crystal-clear Rock Springs, this park offers tubing down a natural lazy river, swimming, and shaded picnic areas. Wildlife like river otters and wading birds are often spotted.",
+    "amenities": ["Tubing", "Swimming", "Picnic Areas", "Playground", "Camping Nearby"],
+    "price": "$3 per vehicle (1–2 people), $5 per vehicle (3–8 people)",
+    "lat": 28.7480,
+    "lng": -81.5098
+  },
+  {
+    "name": "Rodman Campground",
+    "url": null
+  },
+  {
+    "name": "Rodman Recreation Area",
+    "url": null
+  },
+  {
+    "name": "Ross Prairie Trailhead & Campground",
+    "url": null
+  },
+  {
+    "name": "Ruth B. Kirby Gilchrist Blue Springs State Park",
+    "url": null
+  },
+  {
+    "name": "San Felasco Hammock Preserve State Park",
+    "url": null
+  },
+  {
+    "name": "San Marcos de Apalache Historic State Park",
+    "url": null
+  },
+  {
+    "name": "San Pedro Underwater Archaeological Preserve State Park",
+    "url": null
+  },
+  {
+    "name": "Santos Trailhead & Campground",
+    "url": null
+  },
+  {
+    "name": "Savannas Preserve State Park",
+    "url": null
+  },
+  {
+    "name": "Seabranch Preserve State Park",
+    "url": null
+  },
+  {
+    "name": "Sebastian Inlet State Park",
+    "url": null
+  },
+  {
+    "name": "Shangri-La Trailhead & Campground",
+    "url": null
+  },
+  {
+    "name": "Silver Springs State Park",
+    "url": null
+  },
+  {
+    "name": "Skyway Fishing Pier State Park",
+    "url": null
+  },
+  {
+    "name": "South Fork State Park",
+    "url": null
+  },
+  {
+    "name": "St. Andrews State Park",
+    "url": null
+  },
+  {
+    "name": "St. Lucie Inlet Preserve State Park",
+    "url": null
+  },
+  {
+    "name": "St. Sebastian River Preserve State Park",
+    "url": null
+  },
+  {
+    "name": "St. Teresa Tract of Bald Point State Park",
+    "url": null
+  },
+  {
+    "name": "Stephen Foster Folk Culture Center State Park",
+    "url": null
+  },
+  {
+    "name": "Stump Pass Beach State Park",
+    "url": null
+  },
+  {
+    "name": "Suwannee River State Park",
+    "url": null
+  },
+  {
+    "name": "Suwannee River Wilderness Trail",
+    "url": null
+  },
+  {
+    "name": "T.H. Stone Memorial St. Joseph Peninsula State Park",
+    "url": null
+  },
+  {
+    "name": "Tallahassee-St. Marks Historic Railroad State Trail",
+    "url": null
+  },
+  {
+    "name": "Tarkiln Bayou Preserve State Park",
+    "url": null
+  },
+  {
+    "name": "Terra Ceia  Preserve State Park",
+    "url": null
+  },
+  {
+    "name": "The Barnacle Historic State Park",
+    "url": null
+  },
+  {
+    "name": "Three Rivers State Park",
+    "url": null
+  },
+  {
+    "name": "Tomoka State Park",
+    "url": null
+  },
+  {
+    "name": "Topsail Hill Preserve State Park",
+    "url": null
+  },
+  {
+    "name": "Torreya State Park",
+    "url": null
+  },
+  {
+    "name": "Troy Spring State Park",
+    "url": null
+  },
+  {
+    "name": "Waccasassa Bay Preserve State Park",
+    "url": null
+  },
+  {
+    "name": "Washington Oaks Gardens State Park",
+    "url": null
+  },
+  {
+    "name": "Weeki Wachee Springs State Park",
+    "url": null
+  },
+  {
+    "name": "Wekiwa Springs State Park",
+    "url": null
+  },
+  {
+    "name": "Werner-Boyce Salt Springs State Park",
+    "url": null
+  },
+  {
+    "name": "Wes Skiles Peacock Springs State Park",
+    "url": null
+  },
+  {
+    "name": "William J. \"Billy Joe\" Rish Recreation Area",
+    "url": null
+  },
+  {
+    "name": "Windley Key Fossil Reef Geological State Park",
+    "url": null
+  },
+  {
+    "name": "Wingate Creek State Park",
+    "url": null
+  },
+  {
+    "name": "Withlacoochee Bay Trail",
+    "url": null
+  },
+  {
+    "name": "Withlacoochee State Trail",
+    "url": null
+  },
+  {
+    "name": "Ybor City Museum State Park",
+    "url": null
+  },
+  {
+    "name": "Yellow Bluff Fort Historic State Park",
+    "url": null
+  },
+  {
+    "name": "Yellow River Marsh Preserve State Park",
+    "url": null
+  },
+  {
+    "name": "Yulee Sugar Mill Ruins Historic State Park",
+    "url": null
+  }
+]
