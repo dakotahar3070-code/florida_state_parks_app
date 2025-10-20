@@ -76,6 +76,25 @@ class ParkDetailPage extends StatelessWidget {
                 icon: const Icon(Icons.open_in_browser),
                 label: const Text("Visit Official Page"),
               ),
+
+              const SizedBox(height: 20),
+
+if (park["booking_url"] != null)
+  ElevatedButton.icon(
+    onPressed: () async {
+      final bookingUrl = park["booking_url"];
+      final uri = Uri.tryParse(bookingUrl);
+      if (uri != null && await canLaunchUrl(uri)) {
+        await launchUrl(uri, mode: LaunchMode.inAppWebView);
+      } else {
+        ScaffoldMessenger.of(context).showSnackBar(
+          const SnackBar(content: Text("Could not open booking link")),
+        );
+      }
+    },
+    icon: const Icon(Icons.calendar_today),
+    label: const Text("Book Now"),
+  ),
           ],
         ),
       ),
