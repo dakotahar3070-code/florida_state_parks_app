@@ -28,7 +28,7 @@
       "Bicycling",
       "Birding",
       "Boating",
-      "Camping",
+      "Glamping",
       "Camping",
       "Camping Equestrian",
       "Camping, Primitive Group",
@@ -1080,7 +1080,7 @@
     "experiences": [
       "Bicycling",
       "Birding",
-      "Camping",
+      "Glamping",
       "Camping",
       "Camping Equestrian",
       "Camping Primitive",
@@ -2828,7 +2828,7 @@
     "contact": "813-688-9500",
     "experiences": [
       "Bicycling",
-      "Camping",
+      "Glamping",
       "Camping",
       "Camping, Primitive Group",
       "Fishing",
@@ -3302,7 +3302,7 @@
       "Birding",
       "Boat Tours",
       "Boating",
-      "Camping",
+      "Glamping",
       "Camping",
       "Camping Equestrian",
       "Camping Primitive",
@@ -3408,7 +3408,7 @@
     "experiences": [
       "Bicycling",
       "Birding",
-      "Camping",
+      "Glamping",
       "Camping",
       "Camping Equestrian",
       "Camping Primitive",
@@ -3446,7 +3446,7 @@
     "contact": "239-992-0311",
     "experiences": [
       "Boating",
-      "Camping",
+      "Glamping",
       "Camping",
       "Fishing",
       "Geo-Seeking",
@@ -3622,7 +3622,7 @@
     "experiences": [
       "Birding",
       "Boating",
-      "Camping",
+      "Glamping",
       "Camping",
       "Camping Boat",
       "Camping Equestrian",
@@ -3678,7 +3678,7 @@
     "experiences": [
       "Bicycling",
       "Boating",
-      "Camping",
+      "Glamping",
       "Camping",
       "Camping Equestrian",
       "Camping Primitive",
@@ -4130,6 +4130,8 @@
   },
   {
     "name": "Manatee Springs State Park",
+    "booking_url": "https://fareharbor.com/embeds/book/manateefanning/items/401450/?asn=fhdn&asn-ref=lakelouisastatepark&ref=lakelouisastatepark&bookable-only=yes&full-items=yes&marketplace=yes&flow=no&branding=no",
+    "url": "https://www.floridastateparks.org/parks-and-trails/manatee-springs-state-park",
     "url": "https://www.floridastateparks.org/parks-and-trails/manatee-springs-state-park",
     "headline": "Manatee Springs State Park proves boardwalks aren’t only for the beach. The park's 800-foot boardwalk runs through a majestic cypress forest overlooking one of Florida’s breathtaking first-magnitude springs.",
     "description": "A sparkling spring run and boardwalk beneath a cypress forest make Manatee Springs State Park a breathtaking destination for visitors to this unique Florida gem. Visitors enjoy camping, hiking, swimming and canoeing, while keeping an eye out for the West Indian manatees that frequent this park.",
@@ -4141,7 +4143,7 @@
     "experiences": [
       "Bicycling",
       "Boating",
-      "Camping",
+      "Glamping",
       "Camping",
       "Camping, Primitive Group",
       "Fishing",
@@ -4735,7 +4737,7 @@
     "experiences": [
       "Bicycling",
       "Birding",
-      "Camping",
+      "Glamping",
       "Camping",
       "Camping, Primitive Group",
       "Fishing",
@@ -5690,7 +5692,7 @@
       "Birding",
       "Boat Tours",
       "Boating",
-      "Camping",
+      "Glamping",
       "Camping",
       "Camping, Primitive Group",
       "Fishing",
@@ -6257,7 +6259,7 @@
     "experiences": [
       "Bicycling",
       "Birding",
-      "Camping",
+      "Glamping",
       "Camping",
       "Fishing",
       "Geo-Seeking",

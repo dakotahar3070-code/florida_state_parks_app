@@ -5,7 +5,9 @@ import 'package:url_launcher/url_launcher.dart';
 import 'park_detail_page.dart';
 
 class ParksListPage extends StatefulWidget {
-  const ParksListPage({super.key});
+  final void Function(Map park)? onParkSelected;
+
+  const ParksListPage({super.key, this.onParkSelected});
 
   @override
   State<ParksListPage> createState() => _ParksListPageState();
@@ -21,7 +23,7 @@ class _ParksListPageState extends State<ParksListPage> {
   }
 
   Future<void> loadParks() async {
-    final data = await rootBundle.loadString('assets/parks_data.json');
+    final data = await rootBundle.loadString('assets/parks_data_with_coords.json');
     final List decoded = json.decode(data);
     setState(() {
       parks = decoded;
@@ -89,12 +91,16 @@ class _ParksListPageState extends State<ParksListPage> {
                         alignment: Alignment.centerRight,
                         child: TextButton(
                           onPressed: () {
-                            Navigator.push(
-                              context,
-                              MaterialPageRoute(
-                                builder: (_) => ParkDetailPage(park: park),
-                              ),
-                            );
+                            if (widget.onParkSelected != null) {
+                              widget.onParkSelected!(park);
+                            } else {
+                              Navigator.push(
+                                context,
+                                MaterialPageRoute(
+                                  builder: (_) => ParkDetailPage(park: park),
+                                ),
+                              );
+                            }
                           },
                           child: const Text("More details →"),
                         ),

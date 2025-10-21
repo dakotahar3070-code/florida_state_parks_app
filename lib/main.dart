@@ -1,15 +1,15 @@
 import 'package:flutter/material.dart';
 import 'pages/parks_list_page.dart';
 import 'pages/parks_map_page.dart';
-import 'pages/shop_page.dart';
-
+import 'pages/park_detail_page.dart';
+import 'pages/shop_page.dart'; // <-- your shop page
 
 void main() {
-  runApp(const FloridaStateParksApp());
+  runApp(const MyApp());
 }
 
-class FloridaStateParksApp extends StatelessWidget {
-  const FloridaStateParksApp({super.key});
+class MyApp extends StatelessWidget {
+  const MyApp({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -29,31 +29,68 @@ class HomePage extends StatefulWidget {
 }
 
 class _HomePageState extends State<HomePage> {
-  int _selectedIndex = 0;
+  int _currentIndex = 0;
+  Map? _selectedPark;
 
-  final List<Widget> _pages = const [
-    ParksListPage(), // 👈 shows list of parks
-    ParksMapPage(),  // 👈 shows map view
-    ShopPage(),      // 👈 shows shop
-  ];
-
-  void _onItemTapped(int index) {
+  void _onParkSelected(Map park) {
     setState(() {
-      _selectedIndex = index;
+      _selectedPark = park;
+      _currentIndex = 0; // switch to List/Detail tab
+    });
+  }
+
+  void _clearSelectedPark() {
+    setState(() {
+      _selectedPark = null;
     });
   }
 
   @override
   Widget build(BuildContext context) {
+    final tabs = [
+      // Tab 0: List or Detail
+      _selectedPark == null
+          ? ParksListPage(
+              onParkSelected: (park) {
+                setState(() {
+                  _selectedPark = park;
+                });
+              },
+            )
+          : ParkDetailPage(
+              park: _selectedPark!,
+              onBack: _clearSelectedPark,
+            ),
+
+      // Tab 1: Map
+      ParksMapPage(onParkSelected: _onParkSelected),
+
+      // Tab 2: Shop
+      const ShopPage(),
+    ];
+
     return Scaffold(
-      body: _pages[_selectedIndex],
+      body: tabs[_currentIndex],
       bottomNavigationBar: BottomNavigationBar(
-        currentIndex: _selectedIndex,
-        onTap: _onItemTapped,
+        currentIndex: _currentIndex,
+        onTap: (index) {
+          setState(() {
+            _currentIndex = index;
+          });
+        },
         items: const [
-          BottomNavigationBarItem(icon: Icon(Icons.park), label: "Parks"),
-          BottomNavigationBarItem(icon: Icon(Icons.map), label: "Map"),
-          BottomNavigationBarItem(icon: Icon(Icons.store), label: "Shop"),
+          BottomNavigationBarItem(
+            icon: Icon(Icons.list),
+            label: "Parks",
+          ),
+          BottomNavigationBarItem(
+            icon: Icon(Icons.map),
+            label: "Map",
+          ),
+          BottomNavigationBarItem(
+            icon: Icon(Icons.store),
+            label: "Shop",
+          ),
         ],
       ),
     );

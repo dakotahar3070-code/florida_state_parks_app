@@ -2,10 +2,11 @@ import 'dart:convert';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart' show rootBundle;
 import 'package:google_maps_flutter/google_maps_flutter.dart';
-import 'park_detail_page.dart';
 
 class ParksMapPage extends StatefulWidget {
-  const ParksMapPage({super.key});
+  final void Function(Map park) onParkSelected;
+
+  const ParksMapPage({super.key, required this.onParkSelected});
 
   @override
   State<ParksMapPage> createState() => _ParksMapPageState();
@@ -72,12 +73,8 @@ class _ParksMapPageState extends State<ParksMapPage> {
               alignment: Alignment.bottomCenter,
               child: GestureDetector(
                 onTap: () {
-                  Navigator.push(
-                    context,
-                    MaterialPageRoute(
-                      builder: (_) => ParkDetailPage(park: _selectedPark!),
-                    ),
-                  );
+                  // Instead of pushing a new page, call back to parent
+                  widget.onParkSelected(_selectedPark!);
                 },
                 child: Card(
                   margin: const EdgeInsets.all(12),
