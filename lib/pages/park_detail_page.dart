@@ -21,50 +21,44 @@ class ParkDetailPage extends StatelessWidget {
                 park["description"],
                 style: const TextStyle(fontSize: 16),
               ),
+
             const SizedBox(height: 20),
 
+            // 🔽 Experiences dropdown
             if (experiences.isNotEmpty)
               Card(
-                child: Column(
-                  crossAxisAlignment: CrossAxisAlignment.start,
-                  children: [
-                    const Padding(
-                      padding: EdgeInsets.all(12.0),
-                      child: Text("Experiences",
-                          style: TextStyle(
-                              fontSize: 18, fontWeight: FontWeight.bold)),
-                    ),
-                    ...experiences.map((e) => ListTile(
-                          leading: const Icon(Icons.nature_people),
-                          title: Text(e),
-                        )),
-                  ],
+                child: ExpansionTile(
+                  leading: const Icon(Icons.nature_people),
+                  title: const Text(
+                    "Experiences",
+                    style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
+                  ),
+                  children: experiences
+                      .map((e) => ListTile(title: Text(e)))
+                      .toList(),
                 ),
               ),
 
-            const SizedBox(height: 20),
+            const SizedBox(height: 10),
 
+            // 🔽 Amenities dropdown
             if (amenities.isNotEmpty)
               Card(
-                child: Column(
-                  crossAxisAlignment: CrossAxisAlignment.start,
-                  children: [
-                    const Padding(
-                      padding: EdgeInsets.all(12.0),
-                      child: Text("Amenities",
-                          style: TextStyle(
-                              fontSize: 18, fontWeight: FontWeight.bold)),
-                    ),
-                    ...amenities.map((a) => ListTile(
-                          leading: const Icon(Icons.check_circle_outline),
-                          title: Text(a),
-                        )),
-                  ],
+                child: ExpansionTile(
+                  leading: const Icon(Icons.check_circle_outline),
+                  title: const Text(
+                    "Amenities",
+                    style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
+                  ),
+                  children: amenities
+                      .map((a) => ListTile(title: Text(a)))
+                      .toList(),
                 ),
               ),
 
             const SizedBox(height: 20),
 
+            // 🔗 Visit official page
             if (park["url"] != null)
               ElevatedButton.icon(
                 onPressed: () async {
@@ -77,27 +71,29 @@ class ParkDetailPage extends StatelessWidget {
                 label: const Text("Visit Official Page"),
               ),
 
-              const SizedBox(height: 20),
+            const SizedBox(height: 10),
 
-if (park["booking_url"] != null)
-  ElevatedButton.icon(
-    onPressed: () async {
-      final bookingUrl = park["booking_url"];
-      final uri = Uri.tryParse(bookingUrl);
-      if (uri != null && await canLaunchUrl(uri)) {
-        await launchUrl(uri, mode: LaunchMode.inAppWebView);
-      } else {
-        ScaffoldMessenger.of(context).showSnackBar(
-          const SnackBar(content: Text("Could not open booking link")),
-        );
-      }
-    },
-    icon: const Icon(Icons.calendar_today),
-    label: const Text("Book Now"),
-  ),
+            // 📅 Book Now button
+            if (park["booking_url"] != null)
+              ElevatedButton.icon(
+                onPressed: () async {
+                  final bookingUrl = park["booking_url"];
+                  final uri = Uri.tryParse(bookingUrl);
+                  if (uri != null && await canLaunchUrl(uri)) {
+                    await launchUrl(uri, mode: LaunchMode.inAppWebView);
+                  } else {
+                    ScaffoldMessenger.of(context).showSnackBar(
+                      const SnackBar(content: Text("Could not open booking link")),
+                    );
+                  }
+                },
+                icon: const Icon(Icons.calendar_today),
+                label: const Text("Book Now"),
+              ),
           ],
         ),
       ),
     );
   }
 }
+
